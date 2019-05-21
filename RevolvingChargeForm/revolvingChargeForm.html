@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Revolving Charge Account Contract</title>
+    <link rel="stylesheet" href="revolvingChargeStyle.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="dist/inputmask.js"></script>
+    <script src="dist/bindings/inputmask.binding.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+                <div>
+                    <img class="logo" src="form_logo.jpg">
+                </div>
+            </div>
+            <div class="col-sm-4">
+            </div>
+        </div>
+        <div>
+            <h4 class="formTitle">Revolving Charge Account Contract</h1>
+        </div>
+        <br>
+        <form action="">
+            <div class="row">
+                <div class="col-sm-4">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname">
+                    <br>
+                    <br>
+                    <label for="dob">Date of Birth:</label>
+                    <input id="date" data-inputmask="'alizs': 'date'" name="dob" />
+                </div>
+                <div class="col-sm-4">
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname">
+                    <br>
+                    <br>
+                    <label for="vnum">V Number:</label>
+                    <input type="text" name="vnum">
+                </div>
+                <div class="col-sm-4">
+                    <label for="mname">Middle Name:</label>
+                    <input type="text" name="mname">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-8">
+                    <label for="add1">Address Line 1</label>
+                    <input class="lginput" type="text" name="add1">
+                </div>
+                <div class="col-sm-4">
+                    <label for="add2">Address Line 2</label>
+                    <input type="text" name="add2">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-3">
+                    <label for="city">City:</label>
+                    <input class="sminput" type="text" name="city">
+                </div>
+                <div class="col-sm-3">
+                    <label for="state">State:</label>
+                    <input class="sminput" type="text" name="state">
+                </div>
+                <div class="col-sm-3">
+                    <label for="zip">Postal Code:</label>
+                    <input class="xsinput" type="text" name="zip">
+                </div>
+                <div class="col-sm-3">
+                    <label for="country">Country:</label>
+                    <input class="sminput" type="text" name="country">
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-8">
+                    <label for="permit">Drivers License/Permit #:</label>
+                    <input class="mdinput" type="text" name="permit">
+                </div>
+                <div class="col-sm-4">
+                    <label for="home">State:</label>
+                    <input class="sminput" type="text" name="state">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <label for="cell">Cell Phone:</label>
+                    <input type="tel" name="cell" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                </div>
+                <div class="col-sm-4">
+                    <label for="home">Home Phone:</label>
+                    <input type="tel" name="home" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

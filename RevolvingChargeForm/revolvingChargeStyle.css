@@ -1,0 +1,30 @@
+.logo{
+    width: 300px;
+    height: 100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.formTitle{
+    text-align: center;
+}
+
+.lginput{
+    width: 550px;
+}
+
+.sminput{
+    width: 150px;
+}
+
+.xsinput{
+    width: 100px;
+}
+
+.mdinput{
+    width: 480px;
+}
+
+.smmdinput{
+    width: 200px;
+}
